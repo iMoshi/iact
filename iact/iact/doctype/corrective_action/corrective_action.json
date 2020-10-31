@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "CA - .ca_name. - .ca_creation. - .##",
+ "creation": "2020-10-31 14:15:17.632048",
+ "description": "Corrective Action Tracking system",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_1",
+  "ca_name",
+  "ca_creation",
+  "column_break_4",
+  "ca_owner",
+  "ca_assignee",
+  "section_break_2",
+  "amended_from",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break",
+   "label": "General Information"
+  },
+  {
+   "fieldname": "ca_name",
+   "fieldtype": "Data",
+   "label": "CA Name"
+  },
+  {
+   "fieldname": "ca_creation",
+   "fieldtype": "Date",
+   "label": "Date of entry",
+   "options": "Today"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ca_owner",
+   "fieldtype": "Data",
+   "label": "Owner"
+  },
+  {
+   "fieldname": "ca_assignee",
+   "fieldtype": "Data",
+   "label": "Assignee"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break",
+   "label": "Corrective Actions to implement"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Corrective Action",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "New\nAssigned\nIn Progress\nImplemented\nRe-Opened\nCancelled"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "max_attachments": 50,
+ "modified": "2020-10-31 15:13:50.972820",
+ "modified_by": "Administrator",
+ "module": "iACT",
+ "name": "Corrective Action",
+ "name_case": "Title Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1
+  }
+ ],
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "ca_name",
+ "track_changes": 1,
+ "track_seen": 1
+}
