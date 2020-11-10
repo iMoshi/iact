@@ -2,18 +2,19 @@
  "cards": [
   {
    "hidden": 0,
-   "icon": "setting",
+   "icon": "organization",
    "label": "Corrective Action Tracking",
    "links": "[\n    {\n        \"description\": \"Setup of top navigation bar, footer and logo.\",\n        \"label\": \"Website Settings\",\n        \"name\": \"Website Settings\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"List of themes for Website.\",\n        \"label\": \"Website Theme\",\n        \"name\": \"Website Theme\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"Javascript to append to the head section of the page.\",\n        \"label\": \"Website Script\",\n        \"name\": \"Website Script\",\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"Settings for About Us Page.\",\n        \"label\": \"About Us Settings\",\n        \"name\": \"About Us Settings\",\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"Settings for Contact Us Page.\",\n        \"label\": \"Contact Us Settings\",\n        \"name\": \"Contact Us Settings\",\n        \"type\": \"doctype\"\n    }\n]"
   },
   {
    "hidden": 0,
-   "icon": "setting",
+   "icon": "dashboard",
    "label": "Settings",
    "links": "[\n    {\n        \"description\": \"Setup of top navigation bar, footer and logo.\",\n        \"label\": \"Website Settings\",\n        \"name\": \"Website Settings\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"List of themes for Website.\",\n        \"label\": \"Website Theme\",\n        \"name\": \"Website Theme\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"Javascript to append to the head section of the page.\",\n        \"label\": \"Website Script\",\n        \"name\": \"Website Script\",\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"Settings for About Us Page.\",\n        \"label\": \"About Us Settings\",\n        \"name\": \"About Us Settings\",\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"Settings for Contact Us Page.\",\n        \"label\": \"Contact Us Settings\",\n        \"name\": \"Contact Us Settings\",\n        \"type\": \"doctype\"\n    }\n]"
   },
   {
    "hidden": 0,
+   "icon": "mark-as-read",
    "label": "Outcomes",
    "links": "[\n    {\n        \"description\": \"Setup of top navigation bar, footer and logo.\",\n        \"label\": \"Website Settings\",\n        \"name\": \"Website Settings\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"List of themes for Website.\",\n        \"label\": \"Website Theme\",\n        \"name\": \"Website Theme\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"Javascript to append to the head section of the page.\",\n        \"label\": \"Website Script\",\n        \"name\": \"Website Script\",\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"Settings for About Us Page.\",\n        \"label\": \"About Us Settings\",\n        \"name\": \"About Us Settings\",\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"Settings for Contact Us Page.\",\n        \"label\": \"Contact Us Settings\",\n        \"name\": \"Contact Us Settings\",\n        \"type\": \"doctype\"\n    }\n]"
   }
@@ -28,11 +29,11 @@
  "doctype": "Desk Page",
  "extends_another_page": 0,
  "hide_custom": 0,
- "icon": "setting",
+ "icon": "solid-success",
  "idx": 0,
  "is_standard": 1,
  "label": "iACT",
- "modified": "2020-10-31 15:14:46.793655",
+ "modified": "2020-11-01 13:00:06.198140",
  "modified_by": "Administrator",
  "module": "iACT",
  "name": "iACT",
